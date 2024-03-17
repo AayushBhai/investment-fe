@@ -82,9 +82,9 @@
                         <th scope="row">{{stock.cust_number}}</th>
                         <td>{{stock.symbol}}</td>
                         <td>{{stock.name}}</td>
-                        <td>${{stock.shares}}</td>
+                        <td>{{stock.shares}}</td>
                         <td>{{stock.purchase_price}}</td>
-                        <td>${{stock.purchase_date}}</td>
+                        <td>{{stock.purchase_date}}</td>
                         <td @click="updateStock(stock)"><button style="background-color: transparent; padding: 0;">
                             <font-awesome-icon icon="pencil"/></button>
                         </td>
